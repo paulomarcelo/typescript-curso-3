@@ -1,3 +1,4 @@
+/* Decorator com parâmetro */
 export function logarTempoDeExecucao(emSegundos: boolean = false) {
     return function(
         target: any,
