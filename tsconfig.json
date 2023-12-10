@@ -6,7 +6,8 @@
         "noImplicitAny": true,
         "removeComments": true,
         "strictNullChecks": true,
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "sourceMap": true // true para que o compilador gere os arquivos de mapeamento e assim o navegador exiba na depuração. Os arquivos TS tem que estar na pasta publica, só  usar em ambiente de desenvolvimento
     },
     "include": ["app/src/**/*"]
 }
